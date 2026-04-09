@@ -29,7 +29,6 @@ public class Disco extends Publicacion {
         return "El disco tiene los siguientes datos: " +
                 "titulo = '" + getTitulo() + '\'' +
                 ", precio = " + getPrecio() +
-                ", duracionMinutos = " + duracionMinutos +
-                '}';
+                ", duracionMinutos = " + duracionMinutos;
     }
 }

@@ -76,13 +76,10 @@ public class Main {
         System.out.println(miVideo);
 
         System.out.println();
-        System.out.println("Resumen final del catálogo ");
-        System.out.println("Publicaciones ingresadas en esta sesión:");
+        System.out.println("Resumen final");
         System.out.println("  Libro:  " + miLibro);
         System.out.println("  Disco:  " + miDisco);
         System.out.println("  Video:  " + miVideo);
-        System.out.println("Fin del programa. Gracias por usar la editorial.");
 
-        input.close();
     }
 }
